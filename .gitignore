@@ -1,1 +1,21 @@
 data
+docs
+
+# macOS
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+session_notes.md
